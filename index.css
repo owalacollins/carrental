@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+
+}
+.slide{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    text-transform: capitalize;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-image: linear-gradient(rgba(15, 13, 13, 0.116),rgb(15, 13, 13));
+    text-align: center;
+    color: white;
+}
+.btn{
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.178);
+    backdrop-filter: blur(20px);
+    height: 60px;
+    top: 0px;
+    right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+    width: 80vw;
+    
+}
+nav img{  
+   width: 30px;
+   
+}
+.nav h3{
+    color: rgb(172, 190, 6);
+   font-size: 5vw;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: goldenrod;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.content p{
+  line-height: 10ppx;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px 0 ;
+}
+h2 span{
+    color: red;
+}
+.view{
+    text-align: center;
+    margin:20px auto;
+    color: rgb(245, 202, 150);
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+     border-radius: 10px;
+     padding: 10px 15px; 
+     width: 200px;
+}
+.gallary .desc{
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+  .gallary{
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.541) 0px 40px 40px -7px;
+   opacity: 0;
+    transform:10s eas;
+  }
+ .show{
+  /*transform: translateX(0); */
+  opacity: 1;
+ }
+  .gallary img{
+    width: 100%;
+  }
+  .desc3{
+    margin:20px 0;
+  }
+  .desc h3{
+    font-weight: 900;
+    margin: 10px;
+  }
+  .desc1{
+    font-size: 5vw;
+  }
+  .desc2{
+    font-size: 5vw;
+    margin: 10px;
+  }
+  .baton{
+   color: black;
+   padding: 5px 10px;
+  }
+  ul{
+    
+    position: absolute;
+    top:-700px;
+    left: 0;
+    background-color: aliceblue; 
+    width: 100%;
+    height: 70vh;
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+    transition: 3s;
+  }
+  .active{
+    top: 20px;
+  }
+  
+  #navbar  li{
+    display: block;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+   font-family: 'Courier New', Courier, monospace;
+   border-bottom: 2px solid rgb(0, 0, 0);
+  
+  }
+
+ /* .gallary:nth-of-type(even){
+    transform:translateX(-400%) ;
+  }
+
+ footer{
+  width: 100%;
+  height: 50vh;
+  color: rgb(110, 110, 110);
+  background-color:black;
+ display: table;
+  position: absolute;
+  bottom: 0;
+ }
+   */
+   .bton{
+    color: black;
+   padding: 5px 30px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   border: none;
+   display: block;
+   margin: 0 auto;
+   background-color: green;
+
+   }
+   header h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+   }
+   .bdy{
+    background-color: darkgreen;
+   }
+   .gallary h5{
+    background-color: black;
+    color: rgb(17, 255, 0);
+    padding: 5px ;
+    display: block;
+    width: 30%;
+    text-align: center;
+   }
+   fieldset{
+    width: 250px;
+  display: block;
+  margin: 50px auto;
+  height: auto;
+  padding: 20px;
+   }
+    label{
+   display: block;
+   color: rgb(246, 246, 255);
+   margin: 10px;
+   }
+   input[type="submit"]{
+    color: aliceblue;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: rgb(91, 1, 109);
+    margin: 10px;
+   }
+   .banner{
+    width: 100vw;
+    margin: 10px;
+   }
+   .banner img{
+    width: 100%;
+   }
+   
